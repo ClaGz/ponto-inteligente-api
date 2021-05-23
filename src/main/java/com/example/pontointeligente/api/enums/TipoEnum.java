@@ -1,4 +1,4 @@
-package enums;
+package com.example.pontointeligente.api.enums;
 
 public enum TipoEnum {
     INICIO_TRABALHO,
