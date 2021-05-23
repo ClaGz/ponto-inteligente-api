@@ -1,9 +1,8 @@
-package entities;
+package com.example.pontointeligente.api.entities;
 
-import enums.TipoEnum;
+import com.example.pontointeligente.api.enums.TipoEnum;
 
 import javax.persistence.*;
-import javax.swing.text.html.Option;
 import java.io.Serializable;
 import java.util.Date;
 import java.util.Optional;

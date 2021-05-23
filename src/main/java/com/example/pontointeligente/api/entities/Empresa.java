@@ -1,4 +1,4 @@
-package entities;
+package com.example.pontointeligente.api.entities;
 
 import javax.persistence.*;
 import java.io.Serializable;
