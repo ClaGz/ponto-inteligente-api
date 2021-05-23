@@ -48,7 +48,6 @@ public class EmpresaServiceTest {
     @Test
     public void testPersistirEmpresa() {
         Empresa empresa = this.empresaService.persistir(new Empresa());
-
         assertNotNull(empresa);
     }
 
