@@ -1,13 +1,14 @@
 package com.example.pontointeligente.api.repositories;
 
+import com.example.pontointeligente.api.entities.Funcionario;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.transaction.annotation.Transactional;
 
 @Transactional(readOnly = true)
-public interface FuncionarioRepository extends JpaRepository<FuncionarioRepository, Long> {
+public interface FuncionarioRepository extends JpaRepository<Funcionario, Long> {
 
-    FuncionarioRepository findByCpf(String cpf);
-    FuncionarioRepository findByEmail(String email);
-    FuncionarioRepository findByCpfOrEmail(String cpf, String email);
+    Funcionario findByCpf(String cpf);
+    Funcionario findByEmail(String email);
+    Funcionario findByCpfOrEmail(String cpf, String email);
 
 }
